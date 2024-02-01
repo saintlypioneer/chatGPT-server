@@ -24,7 +24,7 @@ app.post('/llm', async (req, res) => {
                 messages: [
                   {
                     role: "system",
-                    content: "You are a helpful assistant",
+                    content: "You are a helpful assistant. Give me the answer in the most consice way posssible with minimum words",
                   },
                   ...messages
                 ],
